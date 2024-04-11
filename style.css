@@ -1,22 +1,22 @@
-.body{
+body{
     background-color: rgb(252, 203, 211);
-    border: 4px solid black;
-    border-bottom: 10px solid black ;
-    border-right: 10px solid black;
-    border-radius: 30px;
+    /* border: 4px solid black; */
+    /* border-bottom: 10px solid black ; */
+    /* border-right: 10px solid black; */
+    /* border-radius: 30px; */
     /* padding: 40px; */
-    padding-bottom: 0%;
-    outline: solid rgb(119, 38, 226) 70px;
+    /* padding-bottom: 0%; */
+    /* outline: solid rgb(119, 38, 226) 70px; */
 
 
-    margin: 10%;
+    /* margin: 10%;
     height: 965px;
     /* margin-top: 50px; */
-    width: 70%;
+    /* width: 70%; */ 
     /* margin-left: 50%; */
 }
 
-.Nav-Head{
+.nav-head{
     display: flex;
     justify-content: space-between;
     margin-top: 5%;
@@ -51,7 +51,7 @@
 }
 
 
-.Signup{
+.signup{
     background-color:rgb(6, 6, 88);
     border: solid 2px rgb(6, 6, 88);
     color: whitesmoke;
@@ -67,7 +67,7 @@
 
 /* Study time */
 
-.Study-anytime{
+.study-anytime{
     /* padding-left: 50px; */
     display: flex;
     gap: 200px;
@@ -82,7 +82,7 @@
 
 
 
-.Study-anytime1{
+.study-anytime1{
     font-size: 50px;
     font-weight: bolder;
     margin: 5%;
@@ -90,7 +90,7 @@
     color:rgb(6, 6, 88) ;
 }
 
-.Study-anytime2{
+.study-anytime2{
     color:rgb(6, 6, 88) ;
     font-size: small;
     margin-left: 5%;
@@ -156,9 +156,9 @@
 
     .body{
     background-color: rgb(252, 203, 211);
-    border: 4px solid black;
-    border-bottom: 5px solid ;
-    border-right: 4px solid black;
+    /* border: 4px solid black; */
+    /* border-bottom: 5px solid ; */
+    /* border-right: 4px solid black; */
     border-radius: 30px;
     /* padding: 40px; */
     padding-bottom: 0%;
@@ -172,7 +172,7 @@
     /* margin-left: 50%; */
 }
 
-.Nav-Head{
+.nav-head{
     display: flex;
     flex-direction: column;
     gap: 90px;
@@ -201,7 +201,7 @@
 }
 
 
-.Signup{
+.signup{
     background-color:rgb(6, 6, 88);
     border: solid 2px rgb(6, 6, 88);
     color: whitesmoke;
@@ -218,7 +218,7 @@
 
 /* Study time */
 
-.Study-anytime{
+.study-anytime{
     /* padding-left: 50px; */
     display: flex;
     flex-direction: column;
@@ -240,7 +240,7 @@
 
 
 
-.Study-anytime1{
+.study-anytime1{
     font-size: xx-large;
     font-weight: bolder;
     margin: 3%;
@@ -248,7 +248,7 @@
     color:rgb(6, 6, 88) ;
 }
 
-.Study-anytime2{
+.study-anytime2{
     color:rgb(6, 6, 88) ;
     font-size: small;
     margin-left: 2%;
@@ -279,7 +279,7 @@
     justify-content: center;
     flex-direction: column;
 
-    gap: 40px;
+    /* gap: 40px; */
   
     font-size: medium;
 
