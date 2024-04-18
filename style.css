@@ -1,19 +1,6 @@
 body{
     background-color: rgb(252, 203, 211);
-    /* border: 4px solid black; */
-    /* border-bottom: 10px solid black ; */
-    /* border-right: 10px solid black; */
-    /* border-radius: 30px; */
-    /* padding: 40px; */
-    /* padding-bottom: 0%; */
-    /* outline: solid rgb(119, 38, 226) 70px; */
-
-
-    /* margin: 10%;
-    height: 965px;
-    /* margin-top: 50px; */
-    /* width: 70%; */ 
-    /* margin-left: 50%; */
+  
 }
 
 .nav-head{
@@ -146,9 +133,6 @@ body{
     font-weight: bold;
     font-size: 20px;
 
-    
-    
-
 
 }
 
@@ -165,20 +149,7 @@ body{
 @media (max-width: 575.98px) {
     body{
         background-color: rgb(252, 203, 211);
-        /* border: 4px solid black; */
-        /* border-bottom: 10px solid black ; */
-        /* border-right: 10px solid black; */
-        /* border-radius: 30px; */
-        /* padding: 40px; */
-        /* padding-bottom: 0%; */
-        /* outline: solid rgb(119, 38, 226) 70px; */
-    
-    
-        /* margin: 10%;
-        height: 965px;
-        /* margin-top: 50px; */
-        /* width: 70%; */ 
-        /* margin-left: 50%; */
+      
     }
     
     .nav-head{
@@ -187,6 +158,7 @@ body{
         justify-content: space-between;
         margin-top: 5%;
         margin: 5%;
+        gap: 30px;
     }
     
     
@@ -202,7 +174,7 @@ body{
         height: 40px;
         border-radius: 20px;
         padding: 12px 15px;
-        width: 50%;
+        width: 60%;
         border: 1px black solid;
         font-size: small;
         background-color: rgb(252, 200, 209);
@@ -243,7 +215,7 @@ body{
     /* Study time */
     
     .study-anytime{
-        /* padding-left: 50px; */
+       
         display: flex;
         flex-direction: column;
         gap: 200px;
@@ -293,9 +265,7 @@ body{
     
     
     
-    
-    
-    
+
     /* Satistics */
     .statistics{
         display: flex;
@@ -318,7 +288,7 @@ body{
         border-bottom-right-radius:30px ;
     
         font-weight: bold;
-        font-size: 20px;
+        font-size: 15px;
 
     
     }
@@ -326,23 +296,10 @@ body{
   
   /* Small devices (phones) */
   @media (min-width: 576px) and (max-width: 767.98px) {
-    /* CSS rules for small devices go here */
+    
     body{
         background-color: rgb(252, 203, 211);
-        /* border: 4px solid black; */
-        /* border-bottom: 10px solid black ; */
-        /* border-right: 10px solid black; */
-        /* border-radius: 30px; */
-        /* padding: 40px; */
-        /* padding-bottom: 0%; */
-        /* outline: solid rgb(119, 38, 226) 70px; */
-    
-    
-        /* margin: 10%;
-        height: 965px;
-        /* margin-top: 50px; */
-        /* width: 70%; */ 
-        /* margin-left: 50%; */
+      
     }
     
     .nav-head{
@@ -407,7 +364,7 @@ body{
     /* Study time */
     
     .study-anytime{
-        /* padding-left: 50px; */
+     
         display: flex;
         flex-direction: column;
         gap: 200px;
@@ -419,7 +376,6 @@ body{
         border-radius: 20px;
         margin-right: 2%;
         width: 100%;
-        margin-top:1%;
         padding-top: 0%;
     }
     
@@ -456,10 +412,7 @@ body{
     
     
     
-    
-    
-    
-    
+
     /* Satistics */
     .statistics{
         display: flex;
@@ -491,17 +444,442 @@ body{
   
   /* Medium devices (tablets) */
   @media (min-width: 768px) and (max-width: 991.98px) {
-    /* CSS rules for medium devices go here */
+   
+    body{
+        background-color: rgb(252, 203, 211);
+        border: 2px solid;
+        border-radius: 5px;
+      
+    }
+    
+    .nav-head{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+        margin: 5%;
+        gap: 20px;
+    }
+    
+    
+    #baims{
+        font-weight: bold;
+        font-size: 40px;
+        margin-top: 0%;
+    }
+    
+    
+    
+    .search{
+        height: 40px;
+        border-radius: 20px;
+        padding: 12px 15px;
+        width: 100%;
+        border: 1px black solid;
+        font-size: small;
+        background-color: rgb(252, 200, 209);
+    
+    }
+    
+    
+    #searchicon{
+        position: absolute;
+        width: 35px;
+        margin-left: 20%;
+    }
+    
+    
+    .signup{
+        background-color:rgb(6, 6, 88);
+        border: solid 2px rgb(6, 6, 88);
+        color: whitesmoke;
+        border-radius: 20px;
+        height: 40px;
+        width: 100px;
+    }
+    
+    
+    
+    #instructor-applies{
+        text-decoration: none;
+        color: rgb(26, 7, 48);
+    }
+    
+    
+    #sign-in{
+        text-decoration: none;
+        color: rgb(26, 7, 48);
+    }
+    
+    /* Study time */
+    
+    .study-anytime{
+        /* padding-left: 50px; */
+        display: flex;
+        gap: 20px;
+        margin-top: 15%;
+    
+    }
+    
+    
+    #cartoon{
+        border-radius: 20px;
+        margin-right: 2%;
+        margin-right: 0%;
+        width: 90%;
+        
+
+    }
+    
+    
+    
+    .study-anytime1{
+        font-size: 50px;
+        font-weight: bolder;
+        margin: 5%;
+        
+        color:rgb(6, 6, 88) ;
+    }
+    
+    .study-anytime2{
+        color:rgb(6, 6, 88) ;
+        font-size: small;
+        margin-left: 5%;
+    }
+    
+    
+    
+    .what-do-you-want-to-learn{
+        background-color: white;
+        border: 1px solid rgb(77, 75, 75);
+        height: 10px;
+        width: 60%;
+        border-radius: 30px;
+        padding: 15px;
+        margin-left: 5%;
+        border-bottom: 3px solid ;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* Satistics */
+    .statistics{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    
+        gap: 20px;
+        justify-content: space-between; 
+        background-color: white; 
+        height: 190px;
+        margin-bottom: 0%;
+        
+        /* border-radius: 30px; */
+        margin-top:30%;
+        padding: 20px;
+        margin-right: 0%;
+    
+        border-bottom-left-radius:30px ;
+        border-bottom-right-radius:30px ;
+    
+        font-weight: bold;
+        font-size: 20px;
+    
+    
+    }
+    
   }
   
   /* Large devices (desktops) */
   @media (min-width: 992px) and (max-width: 1199.98px) {
-    /* CSS rules for large devices go here */
+    body{
+        background-color: rgb(252, 203, 211);
+
+      
+    }
+    
+    .nav-head{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+        margin: 5%;
+        gap:40px;
+    }
+    
+    
+    #baims{
+        font-weight: bold;
+        font-size: xx-large;
+        margin-top: 0%;
+    }
+    
+    
+    
+    .search{
+        height: 40px;
+        border-radius: 20px;
+        padding: 12px 15px;
+        width: 130%;
+        border: 1px black solid;
+        font-size: small;
+        background-color: rgb(252, 200, 209);
+    
+    }
+    
+    
+    #searchicon{
+        position: absolute;
+        width: 35px;
+        margin-left: 20%;
+    }
+    
+    
+    .signup{
+        background-color:rgb(6, 6, 88);
+        border: solid 2px rgb(6, 6, 88);
+        color: whitesmoke;
+        border-radius: 20px;
+        height: 40px;
+        width: 100px;
+    }
+    
+    
+    
+    #instructor-applies{
+        text-decoration: none;
+        color: rgb(26, 7, 48);
+    }
+    
+    
+    #sign-in{
+        text-decoration: none;
+        color: rgb(26, 7, 48);
+    }
+    
+    /* Study time */
+    
+    .study-anytime{
+        /* padding-left: 50px; */
+        display: flex;
+        gap: 200px;
+    
+    }
+    
+    
+    #cartoon{
+        border-radius: 20px;
+        margin-right: 2%;
+    }
+    
+    
+    
+    .study-anytime1{
+        font-size: 50px;
+        font-weight: bolder;
+        margin: 5%;
+        
+        color:rgb(6, 6, 88) ;
+    }
+    
+    .study-anytime2{
+        color:rgb(6, 6, 88) ;
+        font-size: small;
+        margin-left: 5%;
+    }
+    
+    
+    
+    .what-do-you-want-to-learn{
+        background-color: white;
+        border: 1px solid rgb(77, 75, 75);
+        height: 10px;
+        width: 50%;
+        border-radius: 30px;
+        padding: 15px;
+        margin-left: 5%;
+        border-bottom: 3px solid ;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* Satistics */
+    .statistics{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    
+        gap: 20px;
+        justify-content: space-between; 
+        background-color: white; 
+        height: 190px;
+        margin-bottom: 0%;
+        
+        /* border-radius: 30px; */
+        margin-top: 8%;
+        padding: 20px;
+        margin-right: 0%;
+    
+        border-bottom-left-radius:30px ;
+        border-bottom-right-radius:30px ;
+    
+        font-weight: bold;
+        font-size: 20px;
+    
+    
+    }
+    
+    
   }
   
   /* Extra large devices (large desktops) */
   @media (min-width: 1200px) {
     /* CSS rules for extra large devices go here */
+    body{
+        background-color: rgb(252, 203, 211);
+      
+    }
+    
+    .nav-head{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5%;
+        margin: 5%;
+    }
+    
+    
+    #baims{
+        font-weight: bold;
+        font-size: xx-large;
+        margin-top: 0%;
+    }
+    
+    
+    
+    .search{
+        height: 40px;
+        border-radius: 20px;
+        padding: 12px 15px;
+        width: 130%;
+        border: 1px black solid;
+        font-size: small;
+        background-color: rgb(252, 200, 209);
+    
+    }
+    
+    
+    #searchicon{
+        position: absolute;
+        width: 35px;
+        margin-left: 20%;
+    }
+    
+    
+    .signup{
+        background-color:rgb(6, 6, 88);
+        border: solid 2px rgb(6, 6, 88);
+        color: whitesmoke;
+        border-radius: 20px;
+        height: 40px;
+        width: 100px;
+    }
+    
+    
+    
+    #instructor-applies{
+        text-decoration: none;
+        color: rgb(26, 7, 48);
+    }
+    
+    
+    #sign-in{
+        text-decoration: none;
+        color: rgb(26, 7, 48);
+    }
+    
+    /* Study time */
+    
+    .study-anytime{
+        /* padding-left: 50px; */
+        display: flex;
+        gap: 200px;
+    
+    }
+    
+    
+    #cartoon{
+        border-radius: 20px;
+        margin-right: 2%;
+    }
+    
+    
+    
+    .study-anytime1{
+        font-size: 50px;
+        font-weight: bolder;
+        margin: 5%;
+        
+        color:rgb(6, 6, 88) ;
+    }
+    
+    .study-anytime2{
+        color:rgb(6, 6, 88) ;
+        font-size: small;
+        margin-left: 5%;
+    }
+    
+    
+    
+    .what-do-you-want-to-learn{
+        background-color: white;
+        border: 1px solid rgb(77, 75, 75);
+        height: 10px;
+        width: 50%;
+        border-radius: 30px;
+        padding: 15px;
+        margin-left: 5%;
+        border-bottom: 3px solid ;
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* Satistics */
+    .statistics{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    
+        gap: 20px;
+        justify-content: space-between; 
+        background-color: white; 
+        height: 190px;
+        margin-bottom: 0%;
+        
+        /* border-radius: 30px; */
+        margin-top: 8%;
+        padding: 20px;
+        margin-right: 0%;
+    
+        border-bottom-left-radius:30px ;
+        border-bottom-right-radius:30px ;
+    
+        font-weight: bold;
+        font-size: 20px;
+    
+    
+    }
+    
+    
   }
   
   
