@@ -65,7 +65,9 @@ body{
 .study-anytime{
     /* padding-left: 50px; */
     display: flex;
-    gap: 200px;
+    justify-content: space-between;
+    padding-right: 5%;
+    padding-left: 5%;
 
 }
 
@@ -77,7 +79,7 @@ body{
 
 
 
-.study-anytime1{
+.study-anytime-heading{
     font-size: 50px;
     font-weight: bolder;
     margin: 5%;
@@ -85,7 +87,7 @@ body{
     color:rgb(6, 6, 88) ;
 }
 
-.study-anytime2{
+.study-anytime-body{
     color:rgb(6, 6, 88) ;
     font-size: small;
     margin-left: 5%;
@@ -93,7 +95,7 @@ body{
 
 
 
-.what-do-you-want-to-learn{
+.what-to-learn{
     background-color: white;
     border: 1px solid rgb(77, 75, 75);
     height: 10px;
@@ -233,7 +235,7 @@ body{
     
     
     
-    .study-anytime1{
+    .study-anytime-heading{
         font-size: 50px;
         font-weight: bolder;
         margin: 5%;
@@ -241,7 +243,7 @@ body{
         color:rgb(6, 6, 88) ;
     }
     
-    .study-anytime2{
+    .study-anytime-body{
         color:rgb(6, 6, 88) ;
         font-size: small;
         margin-left: 5%;
@@ -249,7 +251,7 @@ body{
     
     
     
-    .what-do-you-want-to-learn{
+    .what-want-to-learn{
         background-color: white;
         border: 1px solid rgb(77, 75, 75);
         height: 10px;
@@ -381,7 +383,7 @@ body{
     
     
     
-    .study-anytime1{
+    .study-anytime-heading{
         font-size: 50px;
         font-weight: bolder;
         margin: 5%;
@@ -389,7 +391,7 @@ body{
         color:rgb(6, 6, 88) ;
     }
     
-    .study-anytime2{
+    .study-anytime-body{
         color:rgb(6, 6, 88) ;
         font-size: small;
         margin-left: 5%;
@@ -397,7 +399,7 @@ body{
     
     
     
-    .what-do-you-want-to-learn{
+    .what-to-learn{
         background-color: white;
         border: 1px solid rgb(77, 75, 75);
         height: 10px;
@@ -532,7 +534,7 @@ body{
     
     
     
-    .study-anytime1{
+    .study-anytime-heading{
         font-size: 50px;
         font-weight: bolder;
         margin: 5%;
@@ -540,7 +542,7 @@ body{
         color:rgb(6, 6, 88) ;
     }
     
-    .study-anytime2{
+    .study-anytime-body{
         color:rgb(6, 6, 88) ;
         font-size: small;
         margin-left: 5%;
@@ -548,7 +550,7 @@ body{
     
     
     
-    .what-do-you-want-to-learn{
+    .what-to-learn{
         background-color: white;
         border: 1px solid rgb(77, 75, 75);
         height: 10px;
@@ -676,7 +678,7 @@ body{
     
     
     
-    .study-anytime1{
+    .study-anytime-heading{
         font-size: 50px;
         font-weight: bolder;
         margin: 5%;
@@ -684,7 +686,7 @@ body{
         color:rgb(6, 6, 88) ;
     }
     
-    .study-anytime2{
+    .study-anytime-body{
         color:rgb(6, 6, 88) ;
         font-size: small;
         margin-left: 5%;
@@ -692,7 +694,7 @@ body{
     
     
     
-    .what-do-you-want-to-learn{
+    .what-to-learn{
         background-color: white;
         border: 1px solid rgb(77, 75, 75);
         height: 10px;
@@ -820,7 +822,7 @@ body{
     
     
     
-    .study-anytime1{
+    .study-anytime-heading{
         font-size: 50px;
         font-weight: bolder;
         margin: 5%;
@@ -828,7 +830,7 @@ body{
         color:rgb(6, 6, 88) ;
     }
     
-    .study-anytime2{
+    .study-anytime-body{
         color:rgb(6, 6, 88) ;
         font-size: small;
         margin-left: 5%;
@@ -836,7 +838,7 @@ body{
     
     
     
-    .what-do-you-want-to-learn{
+    .what-to-learn{
         background-color: white;
         border: 1px solid rgb(77, 75, 75);
         height: 10px;
