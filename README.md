@@ -1,4 +1,5 @@
 **Front-End Practice Project**
+
 Description
 This repository contains a front-end practice project aimed at improving skills in HTML, CSS, and JavaScript. The project focuses on creating a responsive website design to enhance understanding and proficiency in front-end development principles.
 
